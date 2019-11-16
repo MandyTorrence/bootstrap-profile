@@ -63,6 +63,30 @@ footer {
     width: 100%;
     height:  50px;
 }
+.portfolio-item-container{
+    background-color: #016992;
+    border-radius: 15px;
+    border: 2px solid #03A9F4;
+    overflow: hidden;
+}
+
+.portfolio-item-container:hover img {
+    opacity: 0.5;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.project-name {
+    bottom: 50px;
+    width: 100%;
+    background-color: rgba(3, 169, 244, 0.8);
+}
+.project-name h2 {
+    font-size: 20px;
+    text-align: center!important;
+    padding-top: 8px;
+    color: #fff;
+    font-weight: 700;
+}
 @media only screen and (max-width:767px){
     .navbar-collapse {
         border-top: 2px solid #016992;
